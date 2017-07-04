@@ -1,0 +1,154 @@
+﻿body {
+    background-color: #ffd2b3;
+}
+
+#Username, #UserID {
+    font-size: 24px;
+}
+
+#Storynumber, #StoryID {
+    font-size: 24px;
+}
+
+#preview {
+    color: #666666;
+    background-color: #dedef9;
+    border-color: #da9876;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+    #preview:hover {
+        color: #717171;
+        background-color: #cdfdff;
+        border-color: #da9876;
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    #preview:active:hover {
+        color: #fff;
+        background-color: #ffccc9;
+        border-color: #da9876;
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    #preview:active:focus {
+        color: #fff;
+        background-color: #e98980;
+        border-color: #da9876;
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+#Cancel {
+    color: #DDDDDD;
+    background-color: #7e6bc4;
+    border-color: #da9876;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+    #Cancel:hover {
+        color: #717171;
+        background-color: #f7fdb7;
+        border-color: #da9876;
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    #Cancel:active:hover {
+        color: #fff;
+        background-color: #c89ed0;
+        border-color: #da9876;
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    #Cancel:active:focus {
+        color: #fff;
+        background-color: #c89ed0;
+        border-color: #da9876;
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+.btn-success {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+    .btn-success:hover {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .btn-success:active:hover {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .btn-success:active:focus {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+#choose {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+    #choose:hover {
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    #choose:active:hover {
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    #choose:active:focus {
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+img {
+    width: 80px;
+    height: 80px;
+}
+
+.Box1 {
+    width: 80px;
+    height: 80px;
+}
+
+.spanInvisible {
+    display: none;
+}
+/*#MatList tbody{
+            box-shadow:5px 5px 15px blue;
+        }*/
+#MatList, #BakList {
+    box-shadow: 5px 5px 15px blue;
+}
+
+#row2 img {
+    margin: 10px;
+}
+
+#col2 {
+    margin-left: 50px;
+}
+
+.output {
+    width: 500px;
+    height: 400px;
+}
+
+@media (min-width: 992px) {
+    .imgContain {
+        width: 11.11%;
+    }
+}

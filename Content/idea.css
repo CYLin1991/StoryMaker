@@ -1,0 +1,183 @@
+﻿body {
+    /*background-color:#f8e8c9;*/
+}
+
+h1, .h1 {
+    color: red;
+}
+/*----------------------------------------------------------------*/
+
+.panel-success1 {
+    border-color: #da9dc3;
+}
+
+    .panel-success1 > .panel-heading {
+        color: #b93c43;
+        background-color: #f8bec3;
+        border-color: #fbbfd3;
+    }
+
+        .panel-success1 > .panel-heading + .panel-collapse > .panel-body {
+            border-top-color: #fbbfd3;
+        }
+
+        .panel-success1 > .panel-heading .badge {
+            color: #b93c43;
+            background-color: #f8bec3;
+        }
+
+    .panel-success1 > .panel-footer + .panel-collapse > .panel-body {
+        border-bottom-color: #fbbfd3;
+    }
+
+
+/*----------------------------------------------------------------*/
+/*.panel {
+  border-radius: 30px;
+}
+
+.panel-heading {
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+.panel-footer {
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+}*/
+
+.myFontStyle {
+    font-size: 13pt;
+    font-weight: 900;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+    background-color: #808080;
+    color: white;
+}
+
+.table-striped > tbody > tr:nth-of-type(even) {
+    background-color: #ff6a00;
+    color: white;
+}
+
+.table-hover > tbody > tr:hover {
+    background-color: #f5f5f5;
+    color: blue;
+    border: 5px solid red;
+}
+
+.jumbotron {
+    background-image: url('../images/idea01.jpg');
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    .jumbotron h1, .jumbotron .h1 {
+        color: white;
+        font-size: 64pt;
+        text-shadow: 3px 3px 5px black;
+    }
+
+    .jumbotron p {
+        font-size: 28px;
+        font-weight: 800;
+        color: yellow;
+        text-shadow: 0px 0px 10px red;
+    }
+
+.MyJumBack {
+    background-image: url('../images/00.jpg');
+    background-position: left top;
+    background-attachment: local;
+    background-repeat: round;
+}
+
+    .MyJumBack h1 {
+        color: white;
+        font-size: 68pt;
+        text-shadow: 4px 4px 5px black;
+        font-family: 微軟正黑體;
+        font-weight: 900;
+    }
+
+    .MyJumBack p {
+        color: white;
+        font-size: 24pt;
+        text-shadow: 3px 3px 4px black;
+        font-family: 微軟正黑體;
+        font-weight: 900;
+    }
+
+    .MyJumBack .btn {
+        color: white;
+        font-size: 16pt;
+        text-shadow: 2px 2px 3px black;
+        font-family: 微軟正黑體;
+        font-weight: 900;
+    }
+/*-----------------------------------------------------------------------*/
+.btn-primary {
+    color: #666666;
+    background-color: #e2e9bd;
+    border-color: #fdf0dd;
+}
+
+    .btn-primary:focus,
+    .btn-primary.focus {
+        color: #fff;
+        background-color: #ffa1d6;
+        border-color: #fdd8ed;
+    }
+
+    .btn-primary:hover {
+        color: #fff;
+        background-color: #ffa1d6;
+        border-color: #fdd8ed;
+    }
+
+    .btn-primary:active,
+    .btn-primary.active,
+    .open > .dropdown-toggle.btn-primary {
+        color: #fff;
+        background-color: #D28EFF;
+        border-color: #ecd2fe;
+    }
+
+        .btn-primary:active:hover,
+        .btn-primary.active:hover,
+        .open > .dropdown-toggle.btn-primary:hover,
+        .btn-primary:active:focus,
+        .btn-primary.active:focus,
+        .open > .dropdown-toggle.btn-primary:focus,
+        .btn-primary:active.focus,
+        .btn-primary.active.focus,
+        .open > .dropdown-toggle.btn-primary.focus {
+            color: #fff;
+            background-color: #D28EFF;
+            border-color: #ecd2fe;
+        }
+
+    .btn-primary:active,
+    .btn-primary.active,
+    .open > .dropdown-toggle.btn-primary {
+        background-image: none;
+    }
+
+    .btn-primary.disabled:hover,
+    .btn-primary[disabled]:hover,
+    fieldset[disabled] .btn-primary:hover,
+    .btn-primary.disabled:focus,
+    .btn-primary[disabled]:focus,
+    fieldset[disabled] .btn-primary:focus,
+    .btn-primary.disabled.focus,
+    .btn-primary[disabled].focus,
+    fieldset[disabled] .btn-primary.focus {
+        background-color: #e2e9bd;
+        border-color: #fdf0dd;
+    }
+
+    .btn-primary .badge {
+        color: #337ab7;
+        background-color: #D28EFF;
+    }

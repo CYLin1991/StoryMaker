@@ -1,0 +1,58 @@
+﻿body {
+}
+.PageBtn {
+    font-family: Webdings;
+    text-decoration: none;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #ffd800;
+}
+.table-striped > tbody > tr:nth-of-type(even) {
+  background-color: #b6ff00;
+}
+.table-striped > tbody > tr:hover {
+  background-color: white;
+}
+
+.table-striped td {
+  color:black;
+  font-weight:800;
+  font-size:14pt;
+  font-family:標楷體;
+}
+
+.nav-pills > li > a {
+  border-radius: 30px 0px 0px 0px;
+  margin-left:-20px;
+  border-bottom:5px double #337ab7;
+  font-family:標楷體;
+  font-size:16pt;
+}
+.nav-pills > li:first-child > a {
+  margin-left:-10px;
+}
+.nav-pills > li > a >span{
+  margin-left:-100px;
+}
+.progress {
+  height: 50px;
+  margin-bottom: 20px;
+  border-radius: 0px;
+}
+.progress-bar-striped {
+  -webkit-background-size: 40px 40px;
+          background-size: 40px 40px;
+  font-size:24pt;
+}
+
+#container {
+    background-color:#d0d0d0;
+    font-family:標楷體;
+    font-size:16pt;
+}

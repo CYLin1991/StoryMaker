@@ -1,0 +1,128 @@
+﻿body {
+    background-color: #69A2B0;
+    /*background-image: url('../images/snow10.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position:center bottom;
+    background-attachment:fixed;*/
+}
+h2 {
+    color: white;
+    width: 130px;
+    border-bottom: 2px double white;
+}
+#GridView1 {
+    border: 2px double white;
+    border-collapse:collapse;
+}
+#GridView1>tbody>tr>th{
+    color:white;
+    text-align:center;
+    padding:0px 5px 0px 5px;
+}
+    #GridView1 > tbody > tr > td {
+        color: white;
+        padding: 0px 5px 0px 5px;
+    }
+tr, td,th {
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+a {
+    color:#e1ecf6;
+    font-size:16px;
+}
+    a:hover {
+        color:#f6f6e1;
+    }
+
+.btn-primary {
+    color: #fff;
+    background-color: #659157;
+    border-color: #81A575;
+}
+
+    .btn-primary:focus,
+    .btn-primary.focus {
+        color: #fff;
+        background-color: #A1C084;
+        border-color: #81A575;
+    }
+
+    .btn-primary:hover {
+        color: #fff;
+        background-color: #A1C084;
+        border-color: #81A575;
+    }
+
+    .btn-primary:active,
+    .btn-primary.active,
+    .open > .dropdown-toggle.btn-primary {
+        color: #fff;
+        background-color: #A1C084;
+        border-color: #81A575;
+    }
+
+        .btn-primary:active:hover,
+        .btn-primary.active:hover,
+        .open > .dropdown-toggle.btn-primary:hover,
+        .btn-primary:active:focus,
+        .btn-primary.active:focus,
+        .open > .dropdown-toggle.btn-primary:focus,
+        .btn-primary:active.focus,
+        .btn-primary.active.focus,
+        .open > .dropdown-toggle.btn-primary.focus {
+            color: #fff;
+            background-color: #204d74;
+            border-color: #81A575;
+        }
+
+    .btn-primary:active,
+    .btn-primary.active,
+    .open > .dropdown-toggle.btn-primary {
+        background-image: none;
+    }
+
+    .btn-primary.disabled:hover,
+    .btn-primary[disabled]:hover,
+    fieldset[disabled] .btn-primary:hover,
+    .btn-primary.disabled:focus,
+    .btn-primary[disabled]:focus,
+    fieldset[disabled] .btn-primary:focus,
+    .btn-primary.disabled.focus,
+    .btn-primary[disabled].focus,
+    fieldset[disabled] .btn-primary.focus {
+        background-color: #659157;
+        border-color: #2e6da4;
+    }
+
+    .btn-primary .badge {
+        color: #659157;
+        background-color: #fff;
+    }
+
+.alert-success {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+    text-align:center;
+}
+
+    .alert-success hr {
+        border-top-color: #c9e2b3;
+    }
+
+    .alert-success .alert-link {
+        color: #2b542c;
+    }
+
+#SignOut {
+    background-color: #FFCAB1;
+    color: #4c4c4c;
+    border-color: #D1A691;
+}
+    #SignOut:hover {
+        background-color: #D1A691;
+        color: #fff;
+        border-color: #D1A691;
+    }

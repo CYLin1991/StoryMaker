@@ -1,0 +1,211 @@
+﻿body {
+    background-color:#d9ebb1;
+}
+#btn_New {
+    color: #545454;
+    background-color: #fffbb1;
+    border-color: #da9876;
+    /*text-shadow: 3px 2px 2px #da9876;*/
+}
+    #btn_New:hover {
+        color: #717171;
+        background-color: #fccecc;
+        border-color: #da9876;
+    }
+
+    #btn_New:active:hover {
+        color: #545454;
+        background-color: #ccfefc;
+        border-color: #da9876;
+    }
+
+    #btn_New:active:focus {
+        color: #545454;
+        background-color: #ccfefc;
+        border-color: #da9876;
+    }
+#Back {
+    color: #1c1c1c;
+    background-color: #f2ae7d;
+    border-color: #da9876;
+}
+    #Back:hover {
+        color: #717171;
+        background-color: #e4ccfc;
+        border-color: #da9876;
+    }
+
+    #Back:active:hover {
+        color: #545454;
+        background-color: #cce7fe;
+        border-color: #da9876;
+    }
+
+    #Back:active:focus {
+        color: #545454;
+        background-color: #cce7fe;
+        border-color: #da9876;
+    }
+
+#SignOut {
+    color: #1c1c1c;
+    background-color: #f2aeab;
+    border-color: #da9876;
+}
+
+    #SignOut:hover {
+        color: #717171;
+        background-color: #f1c6a4;
+        border-color: #da9876;
+    }
+
+    #SignOut:active:hover {
+        color: #fff;
+        background-color: #e98980;
+        border-color: #da9876;
+    }
+    #SignOut:active:focus {
+        color: #fff;
+        background-color: #e98980;
+        border-color: #da9876;
+    }
+/*--------------------------------------------------------*/
+        .btn-primary {
+            color: #fff;
+            background-color: #a06e55;
+            border-color: #da9876;
+        }
+
+    .btn-primary:focus,
+    .btn-primary.focus {
+        color: #fff;
+        background-color: #060a0b;
+        border-color: #81A575;
+    }
+
+    .btn-primary:hover {
+        color: #fff;
+        background-color: #d263af;
+        border-color: #da9876;
+    }
+
+    .btn-primary:active,
+    .btn-primary.active,
+    .open > .dropdown-toggle.btn-primary {
+        color: #fff;
+        background-color: #d263af;
+        border-color: #da9876;
+    }
+
+        .btn-primary:active:hover,
+        .btn-primary.active:hover,
+        .open > .dropdown-toggle.btn-primary:hover,
+        .btn-primary:active:focus,
+        .btn-primary.active:focus,
+        .open > .dropdown-toggle.btn-primary:focus,
+        .btn-primary:active.focus,
+        .btn-primary.active.focus,
+        .open > .dropdown-toggle.btn-primary.focus {
+            color: #fff;
+            background-color: #4b9be1;
+            border-color: #da9876;
+        }
+
+    .btn-primary:active,
+    .btn-primary.active,
+    .open > .dropdown-toggle.btn-primary {
+        background-image: none;
+    }
+
+    .btn-primary.disabled:hover,
+    .btn-primary[disabled]:hover,
+    fieldset[disabled] .btn-primary:hover,
+    .btn-primary.disabled:focus,
+    .btn-primary[disabled]:focus,
+    fieldset[disabled] .btn-primary:focus,
+    .btn-primary.disabled.focus,
+    .btn-primary[disabled].focus,
+    fieldset[disabled] .btn-primary.focus {
+        background-color: #659157;
+        border-color: #2e6da4;
+    }
+
+    .btn-primary .badge {
+        color: #659157;
+        background-color: #fff;
+    }
+/*--------------------------------------------------------------*/
+@media (min-width: 992px) {
+    .imgContain {
+        width: 20%;
+    }
+}
+
+.imgContain {
+    max-width: 500px;
+}
+
+.img-responsiv {
+    max-width: 100%;
+}
+
+.invisible {
+    display: none;
+}
+
+.item img {
+    margin: auto;
+}
+
+.btnA {
+    border-radius: 0 0 50% 50%;
+}
+
+.chinese, .blue, .red, .green {
+    font-family: "標楷體";
+    font-size: 16pt;
+}
+
+.green {
+    font-weight: 900;
+    font-size: 20pt;
+    color: #2d903a;
+}
+
+.chinese {
+    color: #e2ba1f;
+}
+
+.blue {
+    color: #2135d4;
+}
+
+.red {
+    color: #f2afa9;
+}
+.imgBtn{
+    max-width:100px;
+    border:none;
+    cursor:pointer;
+    margin-bottom:0px;
+    border-radius:10%;
+}
+
+#pic {
+    height:50px
+}
+/*.imgBtn:hover{
+    background-color:gold;
+    opacity:1;
+}*/
+#SignOut{
+    float:right;
+}
+/*#Count{
+    position:relative;
+    top:-60px;
+}*/
+/*#row2{
+   margin-top:-30px;
+}*/
+/*--------------------------------------------------------------*/
