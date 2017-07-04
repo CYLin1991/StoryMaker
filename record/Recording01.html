@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="Scripts/record01.js"></script>
+    <script src="Recorderjs-master/dist/recorder.js"></script>
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <style>
+        #d {
+            height: 256px;
+            border:1px solid red;
+            width:auto;
+        }
+
+            #d:after {
+                content: '';
+                display: inline-block;
+                height: 256px;
+                /*width: 100px;*/
+                border: 1px solid green;
+            }
+
+            #d div {
+                
+                display: inline-block;
+                width: 1px;
+                background: #a00;
+                margin: 0 0 0 1px;
+                vertical-align: bottom;
+            }
+        /*#pic {
+            border:2px solid blue;
+            width:500px;
+            height:150px;
+        }*/
+
+        ul {
+            list-style: none;
+        }
+
+        #recordingslist audio {
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <button id="p" class="glyphicon glyphicon-record">錄製</button>
+    <button id="s" class="glyphicon glyphicon-stop" disabled>停止</button>
+
+    <div id="pic">
+        <div id="d"></div>
+    </div>
+
+    <h2>錄音檔下載</h2>
+    <ul id="recordingslist"></ul>
+
+
+</body>
+
+</html>
