@@ -1,0 +1,56 @@
+﻿body {
+       
+     }
+ #container{
+            width:1247px;
+            margin:auto;
+        }
+       #left{
+           width:184px;
+           float:left;
+           position:relative;
+           top:-4px;
+           
+
+       }
+       #right{
+           width:1060px;
+           float:right;
+       }
+       #bottom{
+           clear:both;
+       }
+     #DataList1 td Label{
+         font-size:8pt;
+     }
+     .mycolor{
+         color:red;
+         font-family:Arial;}
+
+#DataList1 a {
+    text-decoration:none;
+}
+    #DataList1 a:link,#DataList1 a:active,#DataList1 a:visited {
+        /*拜訪前、拜訪時、拜訪後*/
+        color:black;
+    }
+
+     #DetailTable {
+         width:98%;
+     }
+     #DetailTable>tbody>tr:first-child>td:first-child {
+         width:35%;
+         padding:60px;
+     }
+     #DetailTable > tbody > tr:first-child > td:last-child{
+        vertical-align:top; /*靠上對齊*/ 
+         
+        }
+     #DetailTable > tbody > tr:last-child > td:last-child {
+        text-align:right;/*靠右對齊*/   
+     }
+     #DetailTable > tbody > tr:last-child > td:last-child > label:first-child {
+        font-size:10pt;
+        color:#766e6e;
+        text-decoration:line-through;  /*畫橫線*/
+            }
